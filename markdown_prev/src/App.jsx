@@ -51,7 +51,7 @@ And here. | Okay. | I think we get it.
 }
   return (<>
     
-    <center><textarea name="textarea" id="editor" onChange={handleChange} value={text} style={{width:'80vw',height:'80vh'}}></textarea></center>
+    <center><textarea name="textarea" id="editor" onChange={handleChange} value={text} style={{width:'40vw',height:'80vh'}}></textarea></center>
     
     <div id="preview" dangerouslySetInnerHTML={{__html: marked(text)}}></div>
   </>)
